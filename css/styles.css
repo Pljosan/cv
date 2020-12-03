@@ -1,0 +1,176 @@
+/* TAG SELECTORS */
+
+body {
+  margin: 0;
+  text-align: center;
+  font-family: 'Merriweather', serif;
+}
+
+h1 {
+  margin: 50px auto 0 auto;
+  font-family: 'Courgette', cursive;
+  /*font-size: 562.5%;*/
+  font-size: 5.625rem;
+  color: #66BFBF;
+  line-height: 1.5;
+}
+
+h2 {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 2rem;
+  color: #66BFBF;
+}
+
+h3 {
+  font-family: 'Montserrat', sans-serif;
+  color: #a6e3e9;
+}
+
+hr {
+  width: 5%;
+  height: 0;
+  margin: 70px auto;
+  border-width: 5px;
+  border-style: none;
+  border-top-style: dotted;
+  border-color: #EAF6F6;
+}
+
+/* CLASS SELECTORS */
+
+.top-container {
+  background-color: #393e46;
+  padding-top: 100px;
+  position: relative;
+}
+
+.middle-container {
+  background-color: #393e46;
+}
+
+.bottom-container {
+  background-color: #66BFBF;
+  padding: 30px 0;
+  line-height: 2;
+}
+
+.pro {
+  text-decoration: underline;
+}
+
+.top-cloud {
+  position: absolute;
+  top: 50px;
+  right: 300px;
+}
+
+.bottom-cloud {
+  position: absolute;
+  left: 300px;
+  bottom: 300px;
+}
+
+.programming-img {
+  width: 27%;
+}
+
+.profile-image {
+  width: 17%;
+  margin-top: 50px;
+}
+
+.skill-frontend-image {
+  width: 25%;
+  float: right;
+  margin-left: 30px;
+}
+
+.skill-backend-image {
+  width: 15%;
+  float: left;
+  margin-right: 30px;
+}
+
+.skill-row {
+  width: 50%;
+  margin: 50px auto;
+  text-align: left;
+}
+
+.skill-row p {
+  line-height: 1.5;
+}
+
+.backend-skill-p {
+  /* clear: left; */
+  color: #eeeeee;
+}
+
+.frontend-skill-p {
+  color: #eeeeee;
+}
+
+.profile-description {
+  color: #eeeeee;
+}
+
+.contact-me-description {
+  color: #eeeeee;
+}
+
+.intro-description {
+  font-weight: normal;
+}
+
+.contact-me {
+  line-height: 2;
+}
+
+.footer-copyright {
+  margin-bottom: 0;
+  color: #eeeeee;
+  font-size: 0.75rem;
+}
+
+.footer-link {
+  font-family: 'Montserrat', sans-serif;
+  color: #11999E;
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 1.2rem;
+}
+
+.footer-link:hover {
+  color: #EAF6F6;
+}
+
+
+/* CONTACT BUTTON STYLE */
+.contact-button {
+   background: #A6E3E9;
+   background-image: -webkit-linear-gradient(top, #A6E3E9, #66BFBF);
+   background-image: -moz-linear-gradient(top, #A6E3E9, #66BFBF);
+   background-image: -ms-linear-gradient(top, #A6E3E9, #66BFBF);
+   background-image: -o-linear-gradient(top, #A6E3E9, #66BFBF);
+   background-image: -webkit-gradient(to bottom, #A6E3E9, #66BFBF);
+   -webkit-border-radius: 20px;
+   -moz-border-radius: 20px;
+   border-radius: 20px;
+   color: #FFFFFF;
+   font-family: 'Montserrat', sans-serif;
+   font-size: 1.5rem;
+   font-weight: 100;
+   padding: 0 25px;
+   text-decoration: none;
+   display: inline-block;
+   cursor: pointer;
+   text-align: center;
+   margin: 50px auto;
+}
+
+.contact-button:hover {
+   background: #66BFBF;
+   text-decoration: none;
+}
+
+/* END CONTACT BUTTON STYLE */
